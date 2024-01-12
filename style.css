@@ -32,7 +32,7 @@ header{
 #paragraph{
     width: 70%;
     text-align: center;
-    margin: 3em;
+    margin: 2em;
     padding: 1em;
 }
 
@@ -45,6 +45,8 @@ ul{
     border: solid black;
     border-width: thin;
     padding: .5em;
+    border-radius: 9px;
+
 }
 
 ol{
@@ -57,8 +59,21 @@ ol{
 }
 
 img{
-    max-height: 60vh;
-    max-width: 60%;
+    height: 20vh;
+    width: 20vh;
     border-radius: 80%;
-    margin: 2em;
+    margin: 1em;
+}
+
+#pictures{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3em;
+    border-top: solid black;
+    border-radius: 20%;
+    border-bottom: solid black;
+
 }
